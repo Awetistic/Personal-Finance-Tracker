@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+a:hover {
+    color: blue;
+}
+
+#Allselect:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    background-image: url(Amazon-Logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.nav_logo {
+    height: 50px;
+    width: 145px;
+}
+
+.border {
+    border: 1.6px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+/**box 2**/
+.nav-address {
+    margin: 5px;
+}
+.add-first {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.add-second {
+    margin: 3px;;
+}
+.add-icon {
+    display: flex;
+    display: centre;
+}
+
+/**box3**/
+.nav-search {
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.select-search {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: centre;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/**box4**/
+span {
+    font-size: 0.7rem;
+
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**box6**/
+.nav-cart i {
+    font-size: 31px;
+}
+
+nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**panel**/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    width: 58px;
+    font-weight: 700;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/**hero section**/
+.hero-section {
+    background-image: url(amazonbg.jpg);
+    background-size: cover;
+    display: flex;
+    height: 320px;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.hero-message {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.92rem;
+    width: 96%;
+    margin-bottom: 30px;
+}
+
+.hero-message a {
+    color: #007185;
+    cursor: pointer;
+}
+
+/**Shop section**/
+.shop1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    height: 395px;
+}
+
+.box1 {
+    justify-content: center;
+}
+
+.box {
+    border: 2px solid black;
+    width: 22%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/**shop1**/
+
+/**box1**/
+.box-img {
+    background-image: url(Beauty\ Steals\ under\ 25$.jpg);
+    background-size: cover;
+    height: 80%;
+    width: 92%;
+
+}
+
+/**box 2**/
+.minibox {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.box2img {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 92%;
+}
+
+.duoimg {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.box21 {
+    background-image: url(Baskets\ &\ Hampers.jpg);
+    background-size: cover;
+}
+
+.box22 {
+    background-image: url(Accent\ Furniture.jpg);
+    background-size: cover;
+}
+
+.box23 {
+    background-image: url(Hardware.jpg);
+    background-size: cover;
+}
+
+.box24 {
+    background-image: url(Wallpaper\ &\ Paint.jpg);
+    background-size: cover;
+}
+
+/**shop2**/
+.shop2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    height: 395px;
+}
